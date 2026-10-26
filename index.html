@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+  <main class="container">
+
+    <!-- Lado esquerdo: imagem com gradiente -->
+    <section class="imagem" aria-hidden="true"></section>
+
+    <!-- Lado direito: formulário -->
+    <section class="cadastro">
+      <form class="form" action="#" method="post" novalidate>
+        <h1>Sign Up</h1>
+
+        <div class="campo">
+          <label for="nome">Full Name</label>
+          <input type="text" id="nome" name="nome" placeholder="Name..." required>
+          <i class="bi bi-check-circle gren gren"></i>
+          <i class="bi bi-exclamation-circle red"></i>
+
+          <small>Erro mesage</small>
+        </div>
+
+        <div class="campo">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email address..." required>
+          <i class="bi bi-check-circle gren"></i>
+          <i class="bi bi-exclamation-circle red"></i>
+
+          <small>Erro mesage</small>
+
+        </div>
+
+        <div class="campo">
+          <label for="usuario">Username</label>
+          <input type="text" id="usuario" name="usuario" placeholder="Username..." required>
+          <i class="bi bi-check-circle gren"></i>
+          <i class="bi bi-exclamation-circle red"></i>
+
+          <small>Erro mesage</small>
+        </div>
+        
+        <div class="campo">
+          <label for="senha">Password</label>
+          <input type="password" id="senha" name="senha" placeholder="••••••••••••" required>
+          <i class="bi bi-check-circle gren"></i>
+          <i class="bi bi-exclamation-circle red"></i>
+
+          <small>Erro mesage</small>
+        </div>
+
+        <div class="campo">
+          <label for="repetir-senha">Repeat Password</label>
+          <input type="password" id="repetir-senha" name="repetir-senha" placeholder="••••••••••••" required>
+          <i class="bi bi-check-circle gren"></i>
+          <i class="bi bi-exclamation-circle red"></i>
+
+          <small>Erro mesage</small>
+        </div>
+
+        <div class="termos">
+          <input type="checkbox" id="termos" name="termos" required>
+          <label for="termos">I agree to the <strong>Terms of User</strong></label>
+        </div>
+
+        <div class="acoes">
+          <button type="submit">Sign Up</button>
+          <a href="#" class="entrar">Sign in &rarr;</a>
+        </div>
+      </form>
+    </section>
+
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
